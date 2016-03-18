@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Gallery"
+        android:orderInCategory="1"
+        android:title="@string/GalleryAction"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Seek"
+        android:orderInCategory="2"
+        android:title="@string/SeekAction"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Implicet"
+        android:orderInCategory="3"
+        android:title="@string/ImplicetAction"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Media"
+        android:orderInCategory="4"
+        android:title="@string/MediaAction"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Context"
+        android:orderInCategory="5"
+        android:title="@string/ContextAction"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Toast"
+        android:orderInCategory="6"
+        android:title="@string/ToatAcion"
+        app:showAsAction="never" />
+
+</menu>
